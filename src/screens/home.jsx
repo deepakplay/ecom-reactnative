@@ -1,18 +1,62 @@
-
-import { Text, TouchableOpacity, View } from 'react-native';
+import { useState } from 'react';
+import { Image, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import SafeAreaView from '../components/SafeAreaView/SafeAreaView';
+import { ChevronDownIcon, UserIcon, AdjustmentsVerticalIcon, MagnifyingGlassIcon as SearchIcon } from 'react-native-heroicons/outline';
+import Categories from '../components/Categories/Categories';
 
 const Home = ({ navigation }) => {
+    const [searchResturant, setSearchResturant] = useState('');
+
     return (
-        <SafeAreaView className="flex-1 items-center justify-center bg-slate-800">
-            <Text className="text-white">Test123</Text>
-            <TouchableOpacity onPress={() => navigation.push('Test')}>
-                <Text className="text-white text-base">
-                    Try editing me! 🎉
-                </Text>
-            </TouchableOpacity>
+        <SafeAreaView className="flex-1 bg-white">
+            {/* Header */}
+            <View className="py-2 px-5 flex-row gap-x-2 items-center">
+                <View>
+                    <Image
+                        source={{ uri: 'https://links.papareact.com/wru' }}
+                        className="bg-gray-200 p-5 rounded-full"
+                    />
+                </View>
+                <View className="flex-1">
+                    <Text className="text-gray-400 text-sm font-bold">
+                        Deliver Now!
+                    </Text>
+                    <View className="flex-row items-center gap-x-1">
+                        <Text className="font-bold text-lg">Current Location</Text>
+
+                        <ChevronDownIcon size={20} color="#00CCBB" />
+                    </View>
+                </View>
+                <View>
+                    <UserIcon size={35} color="#00CCBB" />
+                </View>
+            </View>
+
+            { /* Search */}
+            <View className="py-2 px-5 flex-row gap-x-2 items-center">
+                <View className="flex-1 bg-gray-100 flex-row rounded-md px-2">
+                    <View className="py-3 px-2">
+                        <SearchIcon size={20} color="#999" />
+                    </View>
+                    <TextInput
+                        placeholder='Search for Restaurants'
+                        value={searchResturant}
+                        onChangeText={setSearchResturant}
+                        className="flex-1"
+                    />
+                </View>
+                <View>
+                    <AdjustmentsVerticalIcon size={30} color="#00CCBB" />
+                </View>
+            </View>
+
+            { /* Categories */}
+            <ScrollView className="flex-1 bg-gray-100" contentContainerStyle={{
+                paddingBottom: 100,
+            }}>
+                <Categories />
+            </ScrollView>
         </SafeAreaView>
     );
 }
-
 export default Home;

@@ -5,7 +5,7 @@ const App = () => {
     return (
         <>
             <Screens />
-            <StatusBar style='light' />
+            <StatusBar style='dark' />
         </>
     );
 }
