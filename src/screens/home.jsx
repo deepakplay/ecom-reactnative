@@ -15,7 +15,7 @@ const Home = ({ navigation }) => {
                 <View>
                     <Image
                         source={require('../images/image0.png')}
-                        className="bg-gray-200 p-5 rounded-full"
+                        className="bg-gray-200 w-10 h-10 rounded-full"
                     />
                 </View>
                 <View className="flex-1">
