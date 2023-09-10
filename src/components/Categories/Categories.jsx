@@ -11,6 +11,7 @@ const Categories = () => {
                 paddingTop: 10,
                 marginBottom: 10
             }}
+            showsHorizontalScrollIndicator={false}
         >
             <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
             <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />

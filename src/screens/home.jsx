@@ -52,7 +52,7 @@ const Home = ({ navigation }) => {
             </View>
 
 
-            <ScrollView className="flex-1" contentContainerStyle={{
+            <ScrollView className="flex-1 bg-gray-100" contentContainerStyle={{
                 paddingBottom: 100,
             }}>
                 { /* Categories */}
@@ -75,6 +75,16 @@ const Home = ({ navigation }) => {
                         categories={[]}
                     />
                 </View>
+                
+                { /* Features components */}
+                <View>
+                    <Featured
+                        title="Featured"
+                        description="Top selling fruits"
+                        categories={[]}
+                    />
+                </View>
+  
             </ScrollView>
         </SafeAreaView>
     );
