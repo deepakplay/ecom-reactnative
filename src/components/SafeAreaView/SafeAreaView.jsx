@@ -5,7 +5,7 @@ const SafeAreaView = ({ children, style = [], ...otherProps }) => {
     const safeAreaStyle = {
         paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
     }
-    
+
     return (
         <SafeView style={[safeAreaStyle, ...style]} {...otherProps}>
             {children}

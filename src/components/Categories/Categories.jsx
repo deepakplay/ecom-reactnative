@@ -20,15 +20,6 @@ const Categories = () => {
             <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
             <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
             <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
-            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
-            
         </ScrollView>
     )
 }

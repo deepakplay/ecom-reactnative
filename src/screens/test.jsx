@@ -11,20 +11,3 @@ const Test = () => {
 }
 
 export default Test;
-
-
-
-// import { Text, TouchableOpacity, View } from "react-native"
-
-// const Test = ({ navigation }) => {
-//     return (
-//         <View className="flex-1 items-center justify-center bg-slate-800">
-//             <TouchableOpacity onPress={() => navigation.goBack()}>
-//                 <Text className="text-white text-base">
-//                     Back to Home
-//                 </Text>
-//             </TouchableOpacity>
-//         </View>
-//     )
-// }
-// export default Test;
