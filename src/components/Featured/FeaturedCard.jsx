@@ -8,10 +8,10 @@ const FeaturedCard = ({
     return (
         <TouchableOpacity className="bg-slate-200 relative mr-2 rounded-lg">
             <Image
-                source={{ uri: imgUrl }}
+                source={imgUrl}
                 className="h-52 w-52 rounded"
             />
-            <Text className="absolute bottom-1 left-1 text-white font-bold">{title}</Text>
+            <Text className="absolute bottom-2 left-2 text-white font-bold text-xl">{title}</Text>
         </TouchableOpacity>
     )
 }

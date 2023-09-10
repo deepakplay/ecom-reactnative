@@ -12,20 +12,23 @@ const Categories = () => {
                 marginBottom: 10
             }}
         >
-            <CategoryCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-            <CategoryCard imgUrl="https://thumbs.dreamstime.com/b/fresh-pears-dark-background-covered-water-droplets-arranged-naturally-creating-composition-graphic-features-277289886.jpg?w=500" title="Category" />
-            <CategoryCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-            <CategoryCard imgUrl="https://thumbs.dreamstime.com/b/fresh-pears-dark-background-covered-water-droplets-arranged-naturally-creating-composition-graphic-features-277289886.jpg?w=500" title="Category" />
-            <CategoryCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-            <CategoryCard imgUrl="https://thumbs.dreamstime.com/b/fresh-pears-dark-background-covered-water-droplets-arranged-naturally-creating-composition-graphic-features-277289886.jpg?w=500" title="Category" />
-            <CategoryCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-            <CategoryCard imgUrl="https://thumbs.dreamstime.com/b/fresh-pears-dark-background-covered-water-droplets-arranged-naturally-creating-composition-graphic-features-277289886.jpg?w=500" title="Category" />
-            <CategoryCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-            <CategoryCard imgUrl="https://thumbs.dreamstime.com/b/fresh-pears-dark-background-covered-water-droplets-arranged-naturally-creating-composition-graphic-features-277289886.jpg?w=500" title="Category" />
-            <CategoryCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-            <CategoryCard imgUrl="https://thumbs.dreamstime.com/b/fresh-pears-dark-background-covered-water-droplets-arranged-naturally-creating-composition-graphic-features-277289886.jpg?w=500" title="Category" />
-            <CategoryCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-            <CategoryCard imgUrl="https://thumbs.dreamstime.com/b/fresh-pears-dark-background-covered-water-droplets-arranged-naturally-creating-composition-graphic-features-277289886.jpg?w=500" title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image1.jpg')} title="Category" />
+            <CategoryCard imgUrl={require('../../images/image2.jpg')} title="Category" />
+            
         </ScrollView>
     )
 }

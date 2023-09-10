@@ -26,16 +26,37 @@ const Featured = ({
                     paddingHorizontal: 16,
                     paddingTop: 10
                 }}
-            >
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
-                <FeaturedCard imgUrl="https://us.123rf.com/450wm/denisined/denisined2307/denisined230700942/209224700-ripe-pear-with-drops-of-water-on-a-dark-background-toned.jpg?ver=6" title="Category" />
+            > 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />                 
+                <FeaturedCard imgUrl={require('../../images/image1.jpg')} title="Product" />
+                <FeaturedCard imgUrl={require('../../images/image2.jpg')} title="Product" />
             </ScrollView>
         </View>
     )
