@@ -14,7 +14,7 @@ const Home = ({ navigation }) => {
             <View className="py-2 px-4 flex-row gap-x-2 items-center">
                 <View>
                     <Image
-                        source={require('../images/image0.jpg')}
+                        source={require('../images/image0.png')}
                         className="bg-gray-200 p-5 rounded-full"
                     />
                 </View>
